@@ -1,6 +1,5 @@
 package seleniumhandson;
 
-import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 public class Skipexception {
@@ -19,7 +18,6 @@ public class Skipexception {
 @Test
 	public void fourth() {
 		System.out.println("Testing4");
-		throw new SkipException("incomplete");
 	}
 @Test(enabled=false)
     public void fifth() {
